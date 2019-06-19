@@ -11,9 +11,7 @@ public class test {
 //        longestCommonPrefix(new String[]{"flower","flow","flight"});
 //        addTwoNumbers(getListNode(8,8,8), getListNode(9,9,9));
 //        sortArrayByParity(new int[]{3,2,1,4});
-
 //        System.out.println(mySqrt(19));
-
 //        asteroidCollision(new int[]{-2,-2,1,-2});
         List<String> list = new ArrayList<>();
         list.add("ale");
@@ -24,7 +22,6 @@ public class test {
 //        compareVersion("7.5.2.4", "7.5.3");
 //        largestSumAfterKNegations(new int[]{-8,3,-5,-3,-5,-2}, 6);
 //        validateStackSequences(new int[]{1,2,3,4,5}, new int[]{4,3,5,1,2});
-
 //        nextGreaterElement(12222333);
 //        checkPossibility(new int[]{3,4,2,4,3});
 //        System.out.println("asdasd".substring(0, 5));
