@@ -34,7 +34,24 @@ public class test {
 //        repeatedStringMatch("abc", "cabcabca");
 //        validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga");
 //        findMaxAverage(new int[]{1,12,-5,-6,50,3}, 1);
-        pivotIndex(new int[]{-1,-1,-1,-1,-1,0});
+//        pivotIndex(new int[]{-1,-1,-1,-1,-1,0});
+    }
+
+    private static boolean isasd(int n){
+        return false;
+    }
+
+    public static int firstBadVersion(int n) {
+        int l = 1, r = n, mod = l;
+        while (l <= r){
+            mod = l + (l + r) / 2;
+            if(isasd(mod)){
+                r = mod;
+            }else {
+                l = mod + 1;
+            }
+        }
+        return l;
     }
 
     public static int pivotIndex(int[] nums) {
