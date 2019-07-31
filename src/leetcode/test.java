@@ -1,12 +1,41 @@
 package leetcode;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.util.*;
 
 public class test {
 
+    public static final ListNode listNode = new ListNode(1);
+
     public static void main(String[] args) {
+
+
+//        TestAbstract testAbstract = new TestAbstractImpl();
+
+//        TestAbstractImpl.load();
+
+//        System.out.println(listNode.val);
+//        listNode.setVal(2);
+//        System.out.println(listNode.val);
+
+
+
+//        HashMap<String, String> map = new HashMap<>();
+//        map.put(null, "qwe");
+//        map.put("1", "qwe");
+//        map.put("2", "qwe");
+////
+////        System.out.println(map.get("1"));
+//
+//        Tostring tostring = new Tostring();
+//        tostring.setAs(1);
+//        System.out.println("asda".equals(null));
+
+//
+//        HashMap<Object, Object> map = new HashMap<>();
+//        map.put("test", TestEnum.test2);
+//
+//        TestEnum testEnum = (TestEnum) map.get("test21");
+//        System.out.println(testEnum);
 
 //        longestCommonPrefix(new String[]{"flower","flow","flight"});
 //        addTwoNumbers(getListNode(8,8,8), getListNode(9,9,9));
@@ -32,6 +61,13 @@ public class test {
 //        validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga");
 //        findMaxAverage(new int[]{1,12,-5,-6,50,3}, 1);
 //        pivotIndex(new int[]{-1,-1,-1,-1,-1,0});
+    }
+
+    private void test123(Boolean f1, Boolean f2){
+        if ((f1 == null && f2 == null)
+                || ((f1 != null && f1 || (f2 != null && f2)))) {
+            System.out.println(1231231);
+        }
     }
 
     private static boolean isasd(int n){
@@ -724,5 +760,13 @@ class ListNode{
     ListNode next;
     ListNode(int x){
         val = x;
+    }
+
+    public int getVal() {
+        return val;
+    }
+
+    public void setVal(int val) {
+        this.val = val;
     }
 }
