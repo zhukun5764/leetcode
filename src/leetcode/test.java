@@ -9,11 +9,11 @@ public class test {
     public static void main(String[] args) {
 
 
-        TestAbstract testAbstract = new TestAbstractImpl();
+//        TestAbstract testAbstract = new TestAbstractImpl();
 
         TestAbstractImpl.load();
 
-//        System.out.println(listNode.val);
+        System.out.println(listNode.val);
 //        listNode.setVal(2);
 //        System.out.println(listNode.val);
 
