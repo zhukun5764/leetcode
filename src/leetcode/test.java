@@ -9,7 +9,7 @@ public class test {
     public static void main(String[] args) {
 
 
-//        TestAbstract testAbstract = new TestAbstractImpl();
+        TestAbstract testAbstract = new TestAbstractImpl();
 
 //        TestAbstractImpl.load();
 
