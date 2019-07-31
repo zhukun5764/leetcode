@@ -11,7 +11,7 @@ public class test {
 
         TestAbstract testAbstract = new TestAbstractImpl();
 
-//        TestAbstractImpl.load();
+        TestAbstractImpl.load();
 
 //        System.out.println(listNode.val);
 //        listNode.setVal(2);
