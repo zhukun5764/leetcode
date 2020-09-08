@@ -10,9 +10,6 @@ public class test {
 
         System.out.println(12312);
         System.out.println(2222);
-        System.out.println(333);
-        System.out.println(4444);
-        System.out.println(5555);
         System.out.println(6666);
 //        TestAbstract testAbstract = new TestAbstractImpl();
 
