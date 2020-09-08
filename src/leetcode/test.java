@@ -11,6 +11,7 @@ public class test {
         System.out.println(12312);
         System.out.println(2222);
         System.out.println(333);
+        System.out.println(4444);
 //        TestAbstract testAbstract = new TestAbstractImpl();
 
         TestAbstractImpl.load();
