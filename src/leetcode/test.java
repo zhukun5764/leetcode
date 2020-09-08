@@ -8,7 +8,13 @@ public class test {
 
     public static void main(String[] args) {
 
-
+        System.out.println(12312);
+        System.out.println(2222);
+        System.out.println(333);
+        System.out.println(4444);
+        System.out.println(5555);
+        System.out.println(7777);
+        System.out.println(88888);
 //        TestAbstract testAbstract = new TestAbstractImpl();
 
         TestAbstractImpl.load();
